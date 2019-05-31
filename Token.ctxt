@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.target=Token
+comment0.text=\n\ Token\ is\ the\ basic\ interface\ that\ allows\ Operands\ and\ Operators\ to\ be\ part\ of\ a\ token\ list\n\ The\ most\ generic\ representation\ of\ things\ that\ may\ be\ included\ in\ a\ polynomial\ expression.\n\ There\ are\ no\ methods\ here.\n\n\ @Alice\n\ @12/6\n
+numComments=1

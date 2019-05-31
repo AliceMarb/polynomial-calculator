@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Operator
+comment0.text=\n\ This\ abstract\ class\ represents\ operators\ and\ provides\ 2\ variables\ that\ all\ operators\ will\ share\:\ their\ sign\ and\ their\ priority\ in\ the\ order\ of\ operations.\n\ @Alice\n\ @12/6\n
+comment1.params=sign\ priority
+comment1.target=Operator(char,\ int)
+comment1.text=\n\ Operator\ Constructor\ won't\ be\ instantiated\ since\ this\ is\ an\ abstract\ class\ but\ useful\ for\ the\ constructors\ of\ its\ subclasses.\n\ @param\ sign\ the\ operator's\ sign\ i.e.\ '-',\ '+',\ '/',\ '*'\ \n\ @param\ priority\ the\ operator's\ priority\ in\ order\ of\ operations\n
+comment2.params=
+comment2.target=char\ getSign()
+comment2.text=\n\ A\ getter\ method\ for\ operator's\ sign\n\ @return\ \ the\ sign\ of\ the\ operator\n
+comment3.params=
+comment3.target=int\ getPrio()
+comment3.text=\n\ A\ getter\ method\ for\ operator's\ priority\ i.e.\ its\ priority\ in\ order\ of\ operations\n\ @return\ \ operator's\ priority\ number.\ Division\ is\ highest\ at\ 4,\ then\ multiplication\ at\ 3,\ addition\ at\ 2,\ and\ subtraction\ at\ 1.\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\n\ Represents\ the\ operator\ as\ a\ String\n\ @return\ outputs\ the\ sign\ of\ the\ operator\ as\ a\ string\n
+comment5.params=c
+comment5.target=char\ isOperator(char)
+comment5.text=\n\ Checks\ if\ the\ input\ character\ is\ an\ operator\n\ @param\ c\ a\ character\n\ @return\ \ 1\ if\ c\ is\ the\ sign\ of\ an\ operator,\ 0\ otherwise\n
+comment6.params=c
+comment6.target=Operator\ outputCorrectOperator(char)
+comment6.text=\n\ Returns\ the\ matching\ object\ of\ the\ correct\ class\ according\ to\ the\ character\ input\ \n\n\ @param\ c\ a\ sign\n\ @return\ \ the\ matching\ operator\n
+comment7.params=op1\ op2
+comment7.target=Polynomial\ operate(Polynomial,\ Polynomial)
+comment7.text=\n\ Applies\ the\ operator\ to\ the\ two\ input\ operands\n\ @param\ op1\ a\ Polynomial\n\ @param\ op2\ a\ Polynomial\n\ @return\ just\ a\ stub\ here\ to\ be\ overriden\ by\ subclasses\n\ \n
+numComments=8

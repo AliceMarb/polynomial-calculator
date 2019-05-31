@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=LeftParenOperator
+comment0.text=\n\ Represents\ a\ (\ ,\ included\ as\ an\ operator\ just\ as\ a\ useful\ way\ to\ represent\ in\ a\ token\ list.\n\n\ @Alice\n\ @12/6\n
+comment1.params=
+comment1.target=LeftParenOperator()
+comment1.text=\n\ Constructor\ for\ LeftParenOperator\n
+numComments=2

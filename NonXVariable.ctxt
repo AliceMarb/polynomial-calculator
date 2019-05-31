@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=NonXVariable
+comment0.text=\n\ A\ NonXVariable\ is\ any\ letter\ that\ is\ not\ x.\ This\ class\ can\ be\ used\ in\ token\ lists\ to\ represent\ variables,\ so\ that\ it\ can\ implement\ the\ useful\ Operand\ method\ of\ isOperand()\ for\ later\ evaluation.\n\n\ @Alice\n\ @11/26\n
+comment1.params=c
+comment1.target=NonXVariable(char)
+comment1.text=\n\ Constructor\ for\ NonXVariable\ that\ initializes\ the\ nonXVariable\ to\ the\ input\ character,\ or\ if\ c\ is\ not\ a\ valid\ input,\ initalizes\ nonXVariable\ to\ 0.\n
+comment2.params=c
+comment2.target=boolean\ isNonXVariable(char)
+comment2.text=\n\ Checks\ if\ this\ is\ char\ is\ a\ non\ x\ variable\ (a\ letter\ -\ character\ -\ \ other\ than\ x).\n\n\ @param\ c\ a\ char\ \n\ @return\ \ true\ if\ a\ non-x\ variable\ (letter),\ false\ otherwise\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\n\ Outputs\ the\ nonXVariable\ field\ (a\ character)\ as\ a\ string..\n\ @return\ \ a\ String\ representation\ of\ the\ polynomial\n
+comment4.params=o
+comment4.target=int\ compareTo(java.lang.Object)
+comment4.text=\n\ Compares\ characters\ so\ that\ they\ can\ be\ arranged\ in\ a\ TreeMap\ alphabetically,\ 'a'\ first.\n\ @param\ o\ any\ object\ o,\ but\ should\ be\ a\ NonXVariable.\n\ @return\ \ -1\ if\ \ o\ is\ an\ earlier\ letter\ than\ nonXVariable,\ 0\ if\ they\ are\ the\ letter,\ or\ 1\ if\ o\ is\ a\ later\ letter\ than\ nonXVariable.\ \n
+numComments=5

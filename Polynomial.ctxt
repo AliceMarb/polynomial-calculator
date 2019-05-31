@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Polynomial
+comment1.params=mon
+comment1.target=Polynomial\ addMonomial(Monomial)
+comment1.text=\n\ adds\ the\ input\ Monomial\ onto\ this\ Polynomial's\ TreeSet\ (called\ mset).\ If\ there\ is\ already\ a\ Monomial\ with\ the\ same\ exponent\ in\ the\ set,\ the\ 2\ Monomials\ are\ added\ using\ Monomial's\ add\ method.\ If\ the\ resulting\n\ Polynomial\ is\ empty,\ a\ Monomial(0,0)\ is\ added\ to\ the\ set.\ But\ otherwise\ 0\ values\ are\ not\ added\ to\ the\ set.\n\ @param\ mon\ a\ monomial\n\ @return\ \ the\ resulting\ polynomial\ of\ the\ sum\ of\ the\ monomial\ and\ the\ polynomial\n
+comment2.params=poly
+comment2.target=Polynomial\ addPoly(Polynomial)
+comment2.text=\n\ adds\ two\ polynomials\ by\ iterating\ through\ the\ input\ polynomial's\ mset\ and\ calling\ addMonomial\ to\ add\ it\ to\ a\ copy\ of\ polynomial's\ mset.\ This\ does\ not\ change\ this\ polynomial's\ mset.\n\ @param\ poly\ a\ polynomial\n\ @return\ \ the\ result\ of\ the\ addition\ of\ the\ 2\ polynomials\ \n\ \n
+comment3.params=mon
+comment3.target=Polynomial\ subtractMonomial(Monomial)
+comment3.text=\n\ subtracts\ mon\ from\ a\ copy\ of\ this\ Polynomial's\ mset.\ If\ there\ is\ already\ a\ Monomial\ with\ the\ same\ exponent\ in\ the\ set,\ mon\ is\ subtracted\ from\ that\ Monomial;\ otherwise\ mon\ is\ added\ to\ the\ set\ with\ a\ negative\ coefficient.\n\ If\ the\ resulting\ Polynomial\ is\ empty,\ a\ Monomial(0,0)\ is\ added\ to\ the\ set.\ But\ otherwise\ 0\ values\ are\ not\ added\ to\ the\ set.\ Adds\ Monomial(0,0)\ if\ resulting\ mset\ is\ empty.\n\ @param\ mon\ a\ monomial\n\ @return\ \ the\ resulting\ polynomial\ of\ the\ subtraction\ of\ mon\ from\ this\ polynomial\n
+comment4.params=poly
+comment4.target=Polynomial\ subtractPoly(Polynomial)
+comment4.text=\n\ subtracts\ the\ input\ polynomial\ from\ this\ polynomial\ by\ iterating\ through\ the\ input\ polynomial's\ mset\ and\ calling\ subtractMonomial\ to\ subtract\ it\ from\ a\ copy\ of\ this\ polynomial's\ mset.\n\ This\ does\ not\ change\ this\ polynomial's\ mset.\ Adds\ Monomial(0,0)\ if\ resulting\ mset\ is\ empty.\n\ @param\ poly\ a\ polynomial\n\ @return\ \ the\ result\ of\ the\ subtraction\ of\ the\ 2\ polynomials\n\ \n
+comment5.params=mon
+comment5.target=Polynomial\ multiplyMonomial(Monomial)
+comment5.text=\n\ multiplies\ mon\ by\ a\ copy\ of\ this\ polynomial.\n\ Polynomial\ multiplication\ is\ done\ by\:\ a(b+c+d)\=\ ab\ +\ ac\ +\ ad\n\ @param\ mon\ a\ monomial\n\ @return\ \ the\ resulting\ polynomial\ \n
+comment6.params=poly
+comment6.target=Polynomial\ multiplyPoly(Polynomial)
+comment6.text=\n\ multiplies\ poly\ by\ a\ copy\ of\ this\ polynomial.\ Adds\ it\ using\ addPoly,\ so\ any\ same\ exponents\ are\ added.\n\ @param\ poly\ a\ polynomial\n\ @return\ \ the\ result\ of\ the\ multiplication\ of\ poly\ and\ this\ polynomial\n
+comment7.params=poly
+comment7.target=Polynomial\ dividePoly(Polynomial)
+comment7.text=\n\ Divides\ a\ copy\ of\ this\ polynomial\ by\ input\ polynomial.\ If\ the\ remainder\ is\ not\ 0,\ or\ if\ poly\ is\ 0\ throws\ an\ IndivisibleException.\ Uses\ a\ polynomial\ division\ algorithm\n\ based\ on\ one\ you\ can\ find\ in\ Wikipedia.\n\ @param\ poly\ a\ polynomial\n\ @return\ \ the\ quotient\ (result)\ of\ the\ division\ as\ a\ Polynomial.\n
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment8.text=\n\ Makes\ a\ String\ representation\ of\ the\ polynomial\ using\ \ operators.\n\ @return\ a\ String\ representation\ of\ the\ polynomial\n
+numComments=9

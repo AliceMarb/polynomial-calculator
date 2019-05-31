@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Operand
+comment0.text=\n\ An\ operand\ is\ something\ on\ which\ an\ operation\ can\ be\ done\ e.g.\ variables,\ numbers,\ monomials\ etc.\ This\ class\ implementing\ this\ interface\ are\ all\ examples\ of\ this.\n\ Operand\ is\ an\ interface\ that\ allows\ its\ implementers,\ Monomial\ and\ NonXVariable,\ to\ be\ included\ in\ the\ token\ list\ in\ evaluations.\n\ Also\ has\ the\ useful\ method\ isOperand()\ which\ can\ be\ used\ in\ stacks.\n\n\ @author\ Alice\n\ @version\ 12/6\n
+comment1.params=token
+comment1.target=boolean\ isOperand(Token)
+comment1.text=\n\ Checks\ if\ a\ token\ is\ an\ operand\n\ @param\ token\ a\ token\n\ @return\ true\ if\ the\ token\ is\ an\ operand,\ false\ otherwise\n
+numComments=2

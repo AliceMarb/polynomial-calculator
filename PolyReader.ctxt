@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=PolyReader
+comment1.params=inputString
+comment1.target=PolyReader(java.lang.String)
+comment1.text=\n\ Initializes\ the\ instance\ variable\ inputString\ to\ the\ parameter,\ sets\ the\ curState\ as\ WVARORMON\ and\ calls\ readPoly()\n\ @param\ \ a\ string\ to\ be\ parsed\ through\ the\ polynomial\ reader\n
+comment2.params=
+comment2.target=NonXVariable\ getNameVariable()
+comment2.text=\n\ gets\ the\ name\ of\ the\ polynomial\ (i.e.\ the\ letter\ before\ the\ equals\ sign,\ the\ a\ in\ a\ \=\ 3\ +\ x^2)\ that\ was\ evaluated\ by\ readPoly()\ from\ the\ inputString.\n\ @return\ the\ name\ of\ the\ input\ expression\ \n
+comment3.params=
+comment3.target=java.util.ArrayDeque\ getTokenList()
+comment3.text=\n\ gets\ the\ resulting\ list\ after\ the\ inputString\ is\ evaluated,\ to\ be\ passed\ to\ InfixToPostfix\n\ @return\ \ the\ ArrayDeque\ of\ tokens.\n
+comment4.params=
+comment4.target=double\ compileIntSaver()
+comment4.text=\n\ In\ the\ FSM\ numbers\ are\ read\ character\ by\ character\ and\ saved\ in\ intSaver\ as\ a\ list\ of\ digits.\ This\ method\ turns\ the\ list\ into\ a\ single\ double.\ Once\ compiled,\ intSaver\ is\ set\ back\ toempty.\n\ @return\ \ a\ double\ which\ is\ the\ number\ represented\ by\ the\ list\ of\ digits\ in\ intSaver.\n
+comment5.params=
+comment5.target=void\ addFromIntSaver()
+comment5.text=\n\ Adds\ to\ the\ tokenList\ the\ correct\ Monomial\ depending\ on\ the\ state\ of\ the\ FSM.\n\ FSM\ feeds\ Monomials\ to\ the\ tokenList,\ but\ what\ kind\ of\ Monomial\ depends\ on\ the\ state\ it\ is\ in.\n\ This\ method\ compiles\ the\ int\ saver,\ puts\ the\ results\ in\ as\ parameters\ to\ a\ Monomial,\ and\ adds\ this\ to\ the\ tokenList,\ according\ to\ the\ state\ it\ is\ in.\n\ e.g.\ is\ in\ X\ state,\ the\ exponent\ should\ be\ 1,\ whereas\ if\ in\ INT\ state,\ the\ exponent\ should\ be\ 0.\n
+comment6.params=name
+comment6.target=void\ readName(java.lang.String)
+comment6.text=\n\ Saves\ the\ name,\ i.e.\ the\ letter\ before\ the\ equals\ sign,\ as\ an\ object\ of\ class\ NonXVariable,\ to\ the\ instance\ variable\ nameVariable.\n\ @param\ name\ an\ input\ string\ which\ is\ jsut\ everything\ before\ the\ \=\ sign.\n\ @return\ if\ name\ contains\ a\ valid\ name\ (one\ character\ long),\ intializes\ nameVariable.\ Otherwise,\ throws\ an\ IllegalArgumentException.\n
+comment7.params=inputExpr
+comment7.target=java.util.ArrayList\ exprToNoSpaceArray(java.lang.String)
+comment7.text=\n\ Takes\ the\ String\ of\ everything\ after\ the\ equals\ sign\ and\ converts\ it\ to\ a\ String\ array,\ having\ gotten\ rid\ of\ all\ the\ spaces.\ Adds\ a\ '$'\ character\ on\ the\ end\ to\ show\ the\ FSM\ the\n\ parser\ has\ reached\ the\ end\ of\ the\ string.\n\ @param\ inputExpr\ a\ String\ with\ whitespace\n\ @return\ a\ array\ list\ of\ strings\ without\ whitespace,\ and\ with\ a\ "$"\ added\ as\ the\ last\ String.\ \n
+comment8.params=
+comment8.target=java.util.ArrayDeque\ readPoly()
+comment8.text=\n\ A\ Finite\ State\ Machine\ that\ reads\ the\ user\ inputted\ string\ and\ evaluates\ it\ to\ make\ a\ list\ of\ tokens.\ \ \n\ @return\ ArrayDeque<Token>\ a\ list\ of\ tokens\ if\ the\ string\ has\ ended\ in\ an\ accepting\ state\ (\ is\ a\ valid\ stirng),\ otherwise\ null.\ However,\ because\ of\ exceptions\ being\ thrown\ instead\ it\ is\ very\ unlikely\ to\ return\ null.\n\ @throws\ IllegalArgumentException\ if\ \n
+numComments=9

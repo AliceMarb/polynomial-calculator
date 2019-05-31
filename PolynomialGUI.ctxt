@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=PolynomialGUI
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ Makes\ a\ window\ with\ 4\ buttons\:\ exit,\ user\ mode,\ file\ mode\ and\ evaluate\!.\ When\ person\ clicks\ on\ user\ mode,\ they\ can\ type\ into\ the\ text\ area\ multiple\ lines\ and\ will\ be\ given\ the\ results\n\ in\ the\ form\ of\ Line\ 1\:\ ...\ Line\ 2\:\ ...\n\ Same\ with\ filemode.\ Once\ one\ f\ these\ is\ clicked,\ the\ person\ cannot\ change\ modes.\n
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=e
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.params=e
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.params=e
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=6

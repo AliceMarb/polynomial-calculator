@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=DivideOperator
+comment0.text=\n\ Write\ a\ description\ of\ class\ DivideOperator\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=DivideOperator()
+comment1.text=\n\ Constructor\ for\ DivideOperator,\ with\ instance\ variables\ being\ initialized\ using\ Operator's\ constructor\n
+comment2.params=op1\ op2
+comment2.target=Polynomial\ operate(Polynomial,\ Polynomial)
+comment2.text=\n\ Applies\ the\ divide\ operator\ to\ the\ two\ input\ operands\n\ @param\ op1\ a\ Polynomial\n\ @param\ op2\ a\ Polynomial\n\ @return\ Polynomial,\ the\ result\ of\ op1\ divided\ by\ op2\n
+numComments=3

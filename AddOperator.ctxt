@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=AddOperator
+comment0.text=\n\ A\ representation\ of\ +\ operator,\ with\ an\ order\ of\ operations\ priority\ of\ 3.\n\n\ @Alice\n\ @12/6\n
+comment1.params=
+comment1.target=AddOperator()
+comment1.text=\n\ Constructor\ for\ AddOperator,\ with\ instance\ variables\ being\ initialized\ using\ Operator's\ constructor.\n
+comment2.params=op1\ op2
+comment2.target=Polynomial\ operate(Polynomial,\ Polynomial)
+comment2.text=\n\ \ Adds\ two\ input\ polynomials\n\ @param\ op1\ a\ Polynomial\n\ @param\ op2\ a\ Polynomial\n\ @return\ Polynomial,\ the\ result\ of\ op1\ add\ op1\n
+numComments=3

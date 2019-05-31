@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=PolynomialCalc
+comment1.params=polyString
+comment1.target=java.lang.String\ getSequence(java.lang.String)
+comment1.text=\n\ getSequence()\n\ @param\ polyString\ an\ input\ String,\ taken\ from\ user\ input,\ to\ be\ evaluated\n\ @return\ a\ String\ output\ of\ the\ evaluation.\ If\ the\ user\ used\ an\ \=\ sign,\ this\ will\ be\ repeated\ (e.g\ input\:\ a\ \=\ 3\ +4,\ output\:\ a\ \=7);\ otherwise\ just\ the\ result\ of\ the\ evaluation\ is\ outputted\ a\ a\ string.\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment2.text=\n\ Takes\ in\ the\ user\ input\ by\ typing\ it\ in,\ evaluates\ it\ and\ prints\ the\ result\ out\ to\ them.\ \n\ User\ will\ choose\ interactive\ mode\ (called\ usermode)\ or\ file\ mode\ and\ then\ proceed\ only\ in\ that\ mode\ for\ the\ rest\ of\ the\ method\ running.\n\n\ @param\ args\ user\ typing\ in\ whatever\ they\ please.\n
+numComments=3
